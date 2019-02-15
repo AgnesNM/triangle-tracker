@@ -2,7 +2,7 @@
 This program helps you determine triangle types (equilateral, scalene and isosceles). It also helps you determine whether a combination of certain length values can produce a triangle. The user should enter one length value of a triangle side per text field, then click "submit". The program should let the user know the triangle type (equilateral, scalene or isosceles), or whether the values can produce a triangle.
 
 #### 15th February 2019
-#### By **Agnes Mwaniki**
+#### By Agnes Mwaniki (agnesndutamwaniki@gmail.com)
 
 ## Description
 This program helps you determine triangle types (equilateral, scalene and isosceles). It also helps you determine whether a combination of certain length values can produce a triangle. The user should enter one length value of a triangle side per text field, then click "submit". The program should let the user know the triangle type (equilateral, scalene or isosceles), or whether the values can produce a triangle.
@@ -20,13 +20,11 @@ HTML, CSS and Javascript
 ## Contribution - BDD
 If you would like to contribute to this project, the following BDD specs should help you:smile:
 
-Behavior                                      | Input Example    | Output Example
-----------------------------------------------|------------------|-------------------------------------------------
-Accept user input                             | 23               | 23
-Detect whether user input is a number         | 23               | 23
-Detect when user input is NOT a number        | "23"             |"Please input a number, for example 1, 2, or 50"               
-Accept only 1 value per text field            | 23               | 23
-Not accept more than one value in a text field| 3,5,7            | "Please input only one number, for example 1,or 50"               
+Behavior                                      |  Input Example   | Output Example
+----------------------------------------------|------------------|--------------------------------------------
+Prompt for user input (first triangle length) | 3                |"Input the first triangle length"
+Prompt for user input (second triangle length)| 5                |"Input the second triangle length"  
+Prompt for user input (third triangle length) | 7                |"Input the third triangle length"              
 Process the 3 entered values                  | 3,5,7            | "Please input only one number, for example 1,or 50"
 Return triangle type or "NOT a triangle"      | 3,5,7            | "Scalene Triangle"
 
