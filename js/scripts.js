@@ -1,7 +1,11 @@
-function Submit () {
-  var triangleTracker1 = document.getElementById('triangleTracker1').innerHTML;
-  var triangleTracker2 = document.getElementById('triangleTracker2').innerHTML;
-  var triangleTracker3 = document.getElementById('triangleTracker3').innerHTML;
-  if (triangleTracker1 === triangleTracker2 === triangleTracker3) {
-    alert ("Equilateral triangle");
+function triangleSides () {
+var side1 = document.getElementById('side1').value;
+var side2 = document.getElementById('side2').value;
+var side3 = document.getElementById('side3').value;
+var sides = [];
+  sides.push(side1, side2, side3);
+  parseInt(sides);
+  if (side1 === side2 && side2 === side3 && side1 === side3) {
+    alert ("Equilateral Triangle");
+  }
   }
