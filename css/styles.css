@@ -15,7 +15,14 @@ p{
 .moregames{
   border:5px solid orange;
   background-color: pink;
+  opacity:0.5;
   display:flex;
   grid-gap: 10px;
   grid-template-columns: repeat(2, 1fr);
+}
+h2{
+  text-align: center;
+}
+em{
+  color:red;
 }
