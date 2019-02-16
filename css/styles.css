@@ -1,15 +1,14 @@
 #sides{
-  border: solid red;
+  border: 5px solid black;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
+  background-color: yellow;
+  opacity:0.5;
   text-align: center;
   font-weight: bold;
     }
 p{
     color: black;
     font-size:22px;
-}
-#colorarea{
-  background-color: orange;
 }
