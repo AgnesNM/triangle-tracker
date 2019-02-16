@@ -9,9 +9,9 @@ function triangleSides() {
     alert("Equilateral Triangle");
   } else if (side1 === side2 || side2 === side3 || side1 === side3) {
     alert("Isosceles Triangle");
-  } else if side1 !== side2 && side2 !== side3 && side3 !== side1 || (side1 + side2) > side3 || (side2 + side3) > side1 || (side3 + side1) > side2 {
+  } else if (side1 !== side2 && side2 !== side3 && side3 !== side1 || (side1 + side2) > side3 || (side2 + side3) > side1 || (side3 + side1) > side2) {
     alert("Scalene Triangle");
-  } else if (side1 + side2) <= side3 && (side2 + side3) <= side1 && (side3 + side2) <= side1) {
+  } else if (side1 + side2) <= side3 || (side2 + side3) <= side1 || (side3 + side2) <= side1) {
   alert("Not a Triangle");
 }
 }
