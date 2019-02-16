@@ -14,7 +14,7 @@ p{
 }
 .moregames{
   border:5px solid blue;
-  background-color: plum;
+  background-color: orange;
   opacity:0.5;
   display:flex;
   grid-template-columns: repeat(2, 1fr);
