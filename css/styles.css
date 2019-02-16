@@ -1,5 +1,5 @@
 #sides{
-  border: 5px solid black;
+  border: 5px solid yellow;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
@@ -14,7 +14,7 @@ p{
 }
 .moregames{
   border:5px solid blue;
-  background-color: orange;
+  background-color: black;
   opacity:0.5;
   display:flex;
   grid-template-columns: repeat(2, 1fr);
@@ -34,18 +34,20 @@ h2{
   color:white;
 }
 em{
-  color:red;
+  color:yellow;
 }
 h4{
   text-align: left;
   font-weight: bold;
   font-size: 22px;
+  color:white;
 }
 h3{
   text-align: left;
   font-weight: bold;
   font-size: 22px;
+  color:white;
 }
 h1{
-  color:white;
+  color:yellow;
 }
