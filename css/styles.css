@@ -17,11 +17,17 @@ p{
   background-color: pink;
   opacity:0.5;
   display:flex;
-  grid-gap: 10px;
   grid-template-columns: repeat(2, 1fr);
 }
+#column1{
+  float:left;
+  width:50%
+}
 h2{
-  text-align: center;
+  text-align: left;
+  font-weight: bold;
+  font-size: 30px;
+  color:white;
 }
 em{
   color:red;
