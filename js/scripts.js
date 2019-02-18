@@ -5,13 +5,18 @@ var side3 = document.getElementById('side3').value;
 var sides = [];
   sides.push(side1, side2, side3);
   parseInt(sides);
-  if (side1 === side2 && side2 === side3 && side3 === side1) {
+  if (side1 === side2 && side2 === side3 && side1 === side3) {
     alert ("Equilateral Triangle");
   } else if (side1 === side2 || side2 === side3 || side1 === side3){
     alert ("isosceles Triangle");
-  } else if (side1 !== side2 && side2 !== side3 && side3 !== side1 && side1 + side2 > side3 || side2 + side3 > side1 || side3 + side1 > side2) {
+  } else if (side1 !== side2 && side2 !== side3 && side1 !== side3 && (side1 + side2 > side3 && side2 + side3 > side1) || side3 + side1 > side2) {
     alert ("Scalene Triangle");
+<<<<<<< HEAD
   } else if (side1 !== side2 && side2 !== side3 && side3 !== side1 && side1 + side2 <= side3 || side2 + side3 <= side1 ||  side3 + side1 <= side2) {
     alert("Not a Triangle");
+=======
+  } else if (side1 !== side2 && side2 !== side3 && side1 !== side3 && (side1 + side2 <= side3 || side2 + side3 <= side1) && side3 + side1 <= side2) {
+    alert ("Not a Triangle")
+>>>>>>> master
   }
 }
