@@ -11,17 +11,8 @@ var sides = [];
     alert ("isosceles Triangle");
   } else if (side1 !== side2 && side2 !== side3 && side3 !== side1 && side1 + side2 > side3 && side2 + side3 > side1 && side3 + side1 > side2) {
     alert ("Scalene Triangle");
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   } else if (side1 !== side2 && side2 !== side3 && side3 !== side1 && side1 + side2 <= side3 || side2 + side3 <= side1 ||  side3 + side1 <= side2) {
     alert("Not a Triangle");
-=======
-  } else if (side1 !== side2 && side2 !== side3 && side1 !== side3 && (side1 + side2 <= side3 || side2 + side3 <= side1) && side3 + side1 <= side2) {
-    alert ("Not a Triangle")
->>>>>>> master
-=======
-  } else if (side1 !== side2 && side2 !== side3 && side3 !== side1 && side1 + side2 < side3 || side2 + side3 < side1 ||  side3 + side1 < side2) {
-    alert("Not a Triangle");
->>>>>>> master
   }
 }
